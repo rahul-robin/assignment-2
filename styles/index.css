@@ -6,9 +6,6 @@
   font-family: "Inter", serif;
 }
 
-body {
-  background-color: black;
-}
 /* f {
     font-family: "Dancing Script", serif;
  } */
@@ -26,11 +23,138 @@ nav h1 {
   font-size: 36px;
   color: rgb(230, 83, 60);
   font-size: 36px;
+  font-weight: 800;
 }
 nav div {
   margin-top: 10px;
   color: white;
-  
 }
 
-/* NAB ENDS HERE */
+/* NAV ENDS HERE */
+/* Banner starts here */
+.banner {
+  background: linear-gradient(
+    180deg,
+    rgb(20, 19, 19),
+    rgb(25, 22, 22) 100%
+  );
+}
+.banner-content-1 {
+  padding-top: 50px;
+  margin: auto;
+  width: 352px;
+  height: 335px;
+}
+.banner-content-1 h3 {
+  width: 285px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 36px;
+  padding-bottom: 28px;
+}
+.banner-content-1 p {
+  width: 274px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+}
+.banner-btn {
+  display: flex;
+  gap: 14px;
+  margin-top: 37px;
+}
+#join,
+#app {
+  width: 169px;
+  height: 54px;
+  box-sizing: border-box;
+  border-radius: 42px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+#join {
+  background-color: #e6533c;
+  border: none;
+}
+#app {
+  background: transparent;
+  border: 1px solid white;
+}
+.banner-content-2 {
+  padding: 45px;
+  margin: auto;
+  width: 273px;
+  height: 588px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.five {
+  position: absolute;
+  top: 14%;
+  left: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 145.91px;
+  height: 74.09px;
+  box-sizing: border-box;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+
+  backdrop-filter: blur(15.12px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.five h3 {
+  padding-right: 18px;
+  color: rgb(255, 255, 255);
+  font-size: 30.24px;
+  font-weight: 900;
+}
+.five h5 {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 9.83px;
+  font-weight: 400;
+}
+.three {
+    background: transparent;
+  position: absolute;
+  top: 35.5%;
+  left: 12%;
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+  width: 155.74px;
+  height: 72.58px;
+  box-sizing: border-box;
+  border: 0.76px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9.07px;
+
+  backdrop-filter: blur(2.12px);
+  background: rgba(48, 48, 48, 0.54);
+}
+#circle {
+  width: 30.24px;
+  height: 30.24px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+.three h3 {
+  color: rgb(250, 250, 249);
+  font-size: 18.14px;
+  font-weight: 900;
+}
+.three h5 {
+  color: rgba(239, 237, 232, 0.65);
+  font-size: 12.1px;
+  font-weight: 400;
+}
+.three-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+/* Banner ends here */
