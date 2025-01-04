@@ -6,9 +6,9 @@
   font-family: "Inter", serif;
 }
 
-/* f {
+.banner-content-1 span {
     font-family: "Dancing Script", serif;
- } */
+ }
 /* NAB STARTS HERE */
 
 nav {
@@ -46,7 +46,7 @@ nav div {
   height: 335px;
 }
 .banner-content-1 h3 {
-  width: 285px;
+  width: 235px;
   color: rgb(255, 255, 255);
   font-weight: 900;
   font-size: 36px;
