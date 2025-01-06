@@ -5,10 +5,13 @@
 * {
   font-family: "Inter", serif;
 }
+body {
+  background-color: black;
+}
 
 .banner-content-1 span {
-    font-family: "Dancing Script", serif;
- }
+  font-family: "Dancing Script", serif;
+}
 /* NAB STARTS HERE */
 
 nav {
@@ -33,11 +36,7 @@ nav div {
 /* NAV ENDS HERE */
 /* Banner starts here */
 .banner {
-  background: linear-gradient(
-    180deg,
-    rgb(20, 19, 19),
-    rgb(25, 22, 22) 100%
-  );
+  background: linear-gradient(180deg, rgb(20, 19, 19), rgb(25, 22, 22) 100%);
 }
 .banner-content-1 {
   padding-top: 50px;
@@ -119,7 +118,7 @@ nav div {
   font-weight: 400;
 }
 .three {
-    background: transparent;
+  background: transparent;
   position: absolute;
   top: 35.5%;
   left: 12%;
@@ -158,3 +157,47 @@ nav div {
   gap: 5px;
 }
 /* Banner ends here */
+/* Habit part starts here */
+.habit {
+  margin: auto;
+  width: 338px;
+  height: 1398px;
+}
+.habit h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 900;
+}
+.habit p {
+  padding-bottom: 55px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.habit-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.habit-content img {
+  border-radius: 50%;
+}
+.habit-content h3 {
+  padding-bottom: 6px;
+  padding-top: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+.habit-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 35px;
+}
+/* Habit part ends here */
