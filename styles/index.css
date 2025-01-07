@@ -162,6 +162,7 @@ nav div {
   margin: auto;
   width: 338px;
   height: 1398px;
+  padding-bottom: 65px;
 }
 .habit h2 {
   text-align: center;
@@ -201,3 +202,45 @@ nav div {
   padding-bottom: 35px;
 }
 /* Habit part ends here */
+/* Run section starts */
+.run {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: auto;
+  width: 353px;
+  height: 531px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+}
+.run h2 {
+  padding-top: 10px;
+  width: 207px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 900;
+}
+.run p {
+  width: 287px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+.run button {
+  border: none;
+  width: 287px;
+  height: 54px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+}
+.run img {
+  width: 287px;
+  height: 170px;
+  border-radius: 18px;
+}
+/* Run section ends */
