@@ -395,7 +395,7 @@ select {
   text-align: center;
 }
 .meet-img {
-  margin: auto;
+  margin: auto auto 40px auto;
   width: 353px;
   height: 1140px;
   border-radius: 18px;
@@ -445,3 +445,96 @@ select {
   font-weight: 800;
 }
 /* meet */
+/* Extra */
+.membership {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#plan {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: 700;
+}
+.best {
+  border-radius: 18px;
+  width: 353px;
+  height: 320px;
+  background: linear-gradient(
+    180deg,
+    rgb(90, 82, 107),
+    rgba(187, 117, 240, 0.6) 100%
+  );
+}
+.title {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0 10px 0;
+}
+.title h2 {
+  color: white;
+  font-weight: 800;
+  font-size: 25px;
+}
+.best h3 {
+  border-radius: 6px;
+  padding: 6px;
+  background-color: rgb(241, 201, 98);
+  font-weight: 600;
+  font-size: 17px;
+}
+.best h5 {
+  padding-left: 30px;
+  color: rgb(224, 223, 223);
+  font-weight: 400;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.best h1 {
+  padding-left: 29px;
+  color: rgb(246, 179, 8);
+  font-size: 30px;
+  font-weight: 800;
+}
+.best h1 span {
+  color: rgb(224, 223, 223);
+  font-weight: 400;
+  font-size: 20px;
+}
+.best p {
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 300px;
+  color: rgb(224, 223, 223);
+  font-weight: 400;
+  font-size: 17px;
+}
+.buy {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.best button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  width: 180px;
+  padding: 12px;
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  border-radius: 25px;
+  border: none;
+}
+#classic {
+  background-color: rgb(147, 242, 138);
+}
+#tk {
+  color: rgb(138, 238, 187);
+}
+#bu {
+  padding-top: 50px;
+}
+/* Extra */
