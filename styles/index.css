@@ -276,8 +276,8 @@ nav div {
   background: rgb(34, 34, 34);
 }
 .chart {
-  width: 310px;
-  padding-left: 40px;
+  margin: auto;
+  width: 347px;
 }
 .chart h3 {
   margin-bottom: 23px;
@@ -297,7 +297,7 @@ nav div {
 }
 table {
   border-collapse: collapse;
-  width: 310px;
+  width: 347px;
   height: 216px;
 }
 th {
