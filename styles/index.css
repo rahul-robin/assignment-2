@@ -28,11 +28,13 @@ nav h1 {
   font-size: 36px;
   font-weight: 800;
 }
-nav div {
+#bar {
   margin-top: 10px;
   color: white;
 }
-
+.nav-item {
+  display: none;
+}
 /* NAV ENDS HERE */
 /* Banner starts here */
 .banner {
@@ -601,4 +603,86 @@ select {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
+}
+
+/* Desktop size */
+@media (min-width: 993px) {
+  nav {
+    /* border: 2px solid red; */
+    width: 1060px;
+  }
+  #bar {
+    display: none;
+  }
+  .nav-item {
+    width: 465px;
+    height: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 45px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+  }
+  .nav-item li {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .nav-item #home {
+    margin-left: 3px;
+    width: 92px;
+    padding: 9px;
+    text-align: center;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+  }
+  .banner-content {
+    position: relative;
+    margin: auto;
+    width: 1060px;
+    height: 625px;
+    display: flex;
+    gap: 270px;
+  }
+  .banner-content-1 {
+    margin: 40px auto auto auto;
+  }
+  .banner-content-1 h3 {
+    width: 520px;
+    height: 282px;
+    font-size: 78px;
+  }
+  .banner-content-1 p {
+    width: 520px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  .banner-btn {
+    width: 465px;
+  }
+  #join, #app {
+    width: 224px;
+    height: 54px;
+  }
+  .banner-content-2 {
+    width: 340px;
+    height: 540px;
+  }
+  .banner-content-2 img {
+    width: 349px;
+  }
+  .banner-content-2 .three {
+    position: absolute;
+    top: 490px;
+    left: -30px;
+  }
+  .banner-content-2 .five {
+    position: absolute;
+    top: 210px;
+    left: 290px;
+  }
 }
