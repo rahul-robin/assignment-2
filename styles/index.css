@@ -664,7 +664,8 @@ select {
   .banner-btn {
     width: 465px;
   }
-  #join, #app {
+  #join,
+  #app {
     width: 224px;
     height: 54px;
   }
@@ -685,4 +686,33 @@ select {
     top: 210px;
     left: 290px;
   }
+  /* habit section */
+  .habit {
+    width: 1060px;
+    height: 452px;
+  }
+  .habit-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 80px;
+  }
+  .habit-content {
+    width: 231px;
+    height: 274px;
+  }
+  .habit-content  p {
+    width: 231px;
+    height: 36px;
+  }
+  .habit h2 {
+    font-size: 48px;
+  }
+  .habit > p {
+    width: 671px;
+    padding: 0;
+    margin: 14px auto 1px auto;
+  }
+  /* habit section */
 }
