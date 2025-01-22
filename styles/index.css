@@ -702,7 +702,7 @@ select {
     width: 231px;
     height: 274px;
   }
-  .habit-content  p {
+  .habit-content p {
     width: 231px;
     height: 36px;
   }
@@ -715,4 +715,29 @@ select {
     margin: 14px auto 1px auto;
   }
   /* habit section */
+  /* Run section */
+  .run {
+    width: 1060px;
+    height: 351px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 35px 30px 35px
+  }
+  .run h2 {
+    padding-bottom: 25px;
+    font-size: 48px;
+    width: 343px;
+    height: 116px;
+  }
+  .run p {
+    width: 443px;
+    height: 72px;
+    padding-bottom: 25px;
+  }
+  .run img {
+    width: 366px;
+    height: 312px;
+  }
+  /* Run section */
 }
