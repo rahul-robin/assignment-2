@@ -834,7 +834,41 @@ select {
     flex-wrap: wrap;
     gap: 30px;
   }
-  .bell, .russel {
+  .bell,
+  .russel {
     display: block;
+  }
+  /* memberships */
+  .membership {
+    border: 2px solid red;
+    width: 1060px;
+  }
+  .offer {
+    width: 1060px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .best {
+    width: 500px;
+  }
+  #plan {
+    font-size: 48px;
+  }
+  /* memberships */
+  .fit-hub {
+    width: 1440px;
+    height: 489px;
+  }
+  .fit-container {
+    width: 1059px;
+    height: 249px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #get {
+    padding: 0;
+  }
+  .fit-hub hr {
+    width: 1060px;
   }
 }
