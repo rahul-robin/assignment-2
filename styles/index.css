@@ -161,7 +161,7 @@ nav h1 {
 /* Banner ends here */
 /* Habit part starts here */
 .habit {
-  margin: auto;
+  margin: 10px auto auto auto;
   width: 338px;
   height: 1398px;
   padding-bottom: 65px;
@@ -218,7 +218,7 @@ nav h1 {
   background: rgb(34, 34, 34);
 }
 .run h2 {
-  padding-top: 10px;
+  padding-bottom: 30px;
   width: 207px;
   color: rgb(255, 255, 255);
   font-size: 32px;
@@ -229,6 +229,7 @@ nav h1 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
+  padding-bottom: 30px;
 }
 .run button {
   border: none;
@@ -248,7 +249,7 @@ nav h1 {
 /* Run section ends */
 /* bmi hading */
 .bmi-heading {
-  padding-top: 15px;
+  padding-top: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -375,7 +376,7 @@ select {
 /* bmi calculator ends here */
 /* meet */
 .meet {
-  padding-top: 65px;
+  padding-top: 40px;
   padding-bottom: 37px;
   margin: auto;
   width: 309px;
@@ -397,7 +398,7 @@ select {
   text-align: center;
 }
 .meet-img {
-  margin: auto auto 40px auto;
+  margin: auto;
   width: 353px;
   height: 1140px;
   border-radius: 18px;
@@ -471,7 +472,11 @@ select {
   align-items: center;
   gap: 30px;
 }
+#second {
+  margin-top: 40px;
+}
 #plan {
+  margin-top: 40px;
   color: rgb(255, 255, 255);
   font-size: 30px;
   font-weight: 700;
@@ -732,8 +737,9 @@ select {
   /* habit section */
   /* Run section */
   .run {
+    margin-top: 50px;
     width: 1060px;
-    height: 351px;
+    height: 325px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -759,7 +765,7 @@ select {
   .bmi-heading {
     width: 671px;
     height: 130px;
-    margin: auto;
+    margin: 50px auto 50px auto;
     align-items: start;
   }
   .bmi-heading h2 {
@@ -773,12 +779,14 @@ select {
   /* BMI */
   /* Calculator */
   .calculator {
-    display: flex;
-    justify-content: start;
-    padding-left: 230px;
-    gap: 150px;
-    width: 1440px;
     height: 487px;
+  }
+  .calculator-c {
+    width: 1085px;
+    margin: auto;
+    display: flex;
+    justify-content: space-center;
+    gap: 160px;
   }
   .chart {
     margin: 0;
@@ -840,13 +848,16 @@ select {
   }
   /* memberships */
   .membership {
-    border: 2px solid red;
-    width: 1060px;
+    width: 1065px;
+  }
+  #second {
+    margin: 0;
   }
   .offer {
-    width: 1060px;
+    margin-top: 30px;
+    width: 1065px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .best {
     width: 500px;
@@ -856,7 +867,6 @@ select {
   }
   /* memberships */
   .fit-hub {
-    width: 1440px;
     height: 489px;
   }
   .fit-container {
