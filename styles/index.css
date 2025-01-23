@@ -802,4 +802,10 @@ select {
     margin-top: 50px;
   }
   /* Calculator */
+  .meet {
+    width: 671px;
+  }
+  .meet h3 {
+    font-size: 48px;
+  }
 }
