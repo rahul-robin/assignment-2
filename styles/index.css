@@ -435,6 +435,21 @@ select {
   height: 261px;
   background-image: url("./images/theresa.png");
 }
+.russel {
+  display: none;
+  border-radius: 18px;
+  width: 313px;
+  background-size: cover;
+  height: 261px;
+  background-image: url("./images/russell.png");
+}
+.bell {
+  display: none;
+  border-radius: 18px;
+  width: 313px;
+  height: 261px;
+  background-image: url("./images/bell.png");
+}
 .meet-h {
   font-weight: 700;
   margin-top: 210px;
@@ -791,12 +806,14 @@ select {
   .form-content {
     width: 580px;
   }
-  form input,select, ::placeholder {
+  form input,
+  select,
+  ::placeholder {
     width: 282px;
   }
   #activity {
     width: 577px;
-   padding-left: 0;
+    padding-left: 0;
   }
   .calculator button {
     margin-top: 50px;
@@ -807,5 +824,17 @@ select {
   }
   .meet h3 {
     font-size: 48px;
+  }
+  .meet-img {
+    width: 1060px;
+    height: 600px;
+  }
+  .meet-img-c {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .bell, .russel {
+    display: block;
   }
 }
