@@ -722,7 +722,7 @@ select {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px 35px 30px 35px
+    padding: 30px 35px 30px 35px;
   }
   .run h2 {
     padding-bottom: 25px;
@@ -740,4 +740,66 @@ select {
     height: 312px;
   }
   /* Run section */
+  /* BMI */
+  .bmi-heading {
+    width: 671px;
+    height: 130px;
+    margin: auto;
+    align-items: start;
+  }
+  .bmi-heading h2 {
+    text-align: start;
+    font-size: 48px;
+  }
+  .bmi-heading p {
+    width: 671px;
+    height: 48px;
+  }
+  /* BMI */
+  /* Calculator */
+  .calculator {
+    display: flex;
+    justify-content: start;
+    padding-left: 230px;
+    gap: 150px;
+    width: 1440px;
+    height: 487px;
+  }
+  .chart {
+    margin: 0;
+  }
+  .chart h3 {
+    font-size: 28px;
+    padding-bottom: 30px;
+  }
+  .calculate {
+    margin: 0;
+  }
+  .calculate p {
+    padding-bottom: 25px;
+    width: 577px;
+  }
+  .calculate h3 {
+    font-size: 28px;
+  }
+  form {
+    padding: 0;
+  }
+  form div {
+    height: 55px;
+  }
+  .form-content {
+    width: 580px;
+  }
+  form input,select, ::placeholder {
+    width: 282px;
+  }
+  #activity {
+    width: 577px;
+   padding-left: 0;
+  }
+  .calculator button {
+    margin-top: 50px;
+  }
+  /* Calculator */
 }
